@@ -1,7 +1,8 @@
 from game.Casting.actor import Actor
 
+# The layout of the game, creating objects and walls within the game to build the course of the game
 
-class Brick(Actor):
+class Map():
     """A solid, rectangular object that can be broken."""
 
     def __init__(self, body, animation, points, debug = False):
@@ -32,11 +33,3 @@ class Brick(Actor):
             An instance of Body.
         """
         return self._body
-
-    def get_points(self):
-        """Gets the brick's points.
-        
-        Returns:
-            A number representing the brick's points.
-        """
-        return self._points

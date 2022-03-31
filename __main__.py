@@ -1,19 +1,19 @@
 import constants
 
-from game.Casting.cast import Cast
-from game.Casting.powerups import Powerups
+from game.casting.cast import Cast
+from game.casting.powerups import Powerups
 # from game.Casting.score import Score
-from game.Casting.carts import Cart
-from game.Scripting.script import Script
-from game.Scripting.control_actors_action import ControlActorsAction
-from game.Scripting.move_actors_action import MoveActorsAction
-from game.Scripting.handle_collision_action import HandleCollisionsAction
-from game.Scripting.draw_actors_action import DrawActorsAction
-from game.Director.director import Director
-from game.Services.keyboard_service import KeyboardService
-from game.Services.video_service import VideoService
-from game.Shared.color import Color
-from game.Shared.point import Point
+from game.casting.carts import Cart
+from game.ccripting.script import Script
+from game.scripting.control_actors_action import ControlActorsAction
+from game.scripting.move_actors_action import MoveActorsAction
+from game.scripting.handle_collision_action import HandleCollisionsAction
+from game.scripting.draw_actors_action import DrawActorsAction
+from game.director.director import Director
+from game.services.keyboard_service import KeyboardService
+from game.services.video_service import VideoService
+from game.shared.color import Color
+from game.shared.point import Point
 
 
 def main():
