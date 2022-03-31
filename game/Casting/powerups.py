@@ -8,12 +8,12 @@ from game.casting.actor import Actor
 class Powerups(Actor):
 
     def __init__(self):
-        super.__init__(Actor)
-        self.powerup = []
-        self.set_text('?')
-        self.set_position(position)
-        self.set_velocity(0)
-
+        # super.__init__(Actor)
+        # self.powerup = []
+        # self.set_text('?')
+        # self.set_position(position)
+        # self.set_velocity(0)
+        pass
     def set_powerup(self):
        pass
 
