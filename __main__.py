@@ -24,8 +24,8 @@ def main():
 
     # create the cast
     cast = Cast()
-    cast.add_actor("foods", Powerups())
-    cast.add_actor("cart", Cart())
+    cast.add_actor("powerups", Powerups())
+    cast.add_actor("cart", Carts())
     # cast.add_actor("scores", Score())
    
     # start the game
