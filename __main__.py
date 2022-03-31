@@ -4,7 +4,7 @@ from game.casting.cast import Cast
 from game.casting.powerups import Powerups
 # from game.Casting.score import Score
 from game.casting.carts import Cart
-from game.ccripting.script import Script
+from game.scripting.script import Script
 from game.scripting.control_actors_action import ControlActorsAction
 from game.scripting.move_actors_action import MoveActorsAction
 from game.scripting.handle_collision_action import HandleCollisionsAction
