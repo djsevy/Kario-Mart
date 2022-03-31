@@ -3,7 +3,7 @@ import constants
 from game.casting.cast import Cast
 from game.casting.powerups import Powerups
 # from game.Casting.score import Score
-from game.casting.carts import Cart
+from game.casting.carts import Carts
 from game.scripting.script import Script
 from game.scripting.control_actors_action import ControlActorsAction
 from game.scripting.move_actors_action import MoveActorsAction
