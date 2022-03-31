@@ -1,4 +1,4 @@
-from game.shared.color import Color
+from game.Shared.color import Color
 
 
 COLUMNS = 40
