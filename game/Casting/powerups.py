@@ -1,9 +1,9 @@
 import random
 import constants
 
-from game.Casting.cast import Cast
-from game.Shared.point import Point
-from game.Casting.actor import Actor
+from game.casting.cast import Cast
+from game.shared.point import Point
+from game.casting.actor import Actor
 
 class Powerups(Actor):
 
