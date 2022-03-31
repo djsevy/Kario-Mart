@@ -1,15 +1,15 @@
 import constants
 
 from game.Casting.cast import Cast
-from game.Casting.food import Food
-from game.Casting.score import Score
+from game.Casting.powerups import Powerups
+# from game.Casting.score import Score
 from game.Casting.carts import Cart
 from game.Scripting.script import Script
 from game.Scripting.control_actors_action import ControlActorsAction
 from game.Scripting.move_actors_action import MoveActorsAction
-from game.Scripting.handle_collisions_action import HandleCollisionsAction
+from game.Scripting.handle_collision_action import HandleCollisionsAction
 from game.Scripting.draw_actors_action import DrawActorsAction
-from game.Directing.director import Director
+from game.Director.director import Director
 from game.Services.keyboard_service import KeyboardService
 from game.Services.video_service import VideoService
 from game.Shared.color import Color
@@ -24,9 +24,9 @@ def main():
 
     # create the cast
     cast = Cast()
-    cast.add_actor("foods", Food())
+    cast.add_actor("foods", Powerups())
     cast.add_actor("cart", Cart())
-    cast.add_actor("scores", Score())
+    # cast.add_actor("scores", Score())
    
     # start the game
     keyboard_service = KeyboardService()
