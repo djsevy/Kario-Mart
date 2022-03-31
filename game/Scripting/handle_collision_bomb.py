@@ -13,7 +13,6 @@ class Handle_Collision_Bomb:
         pass
 
     def execute(self):
-    #    if kart position = bomb position
-    #    end game? remove life?
+       
        
        pass
